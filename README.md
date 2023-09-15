@@ -13,7 +13,7 @@ It provides a user-friendly interface powered by Streamlit, allowing users to in
 - **Transcript generation**: Automatically generate a text transcript of the video content, allowing users to review and search through the transcript for specific information.
 - **Integration with video hosting platforms**: Integrate VideoQuERI with popular video hosting platforms, such as YouTube or Vimeo, to allow users to chat with videos hosted on these platforms.
 
-## Installation for Developers
+## Installation
 
 To install and set up VideoQuERI for development purposes, follow these steps:
 
