@@ -41,7 +41,7 @@ To install and set up VideoQuERI for development purposes, follow these steps:
 
 6. Interact with the chat interface to input questions or comments related to the video.
 
-## Don't forget to read the FAQs section upo opening the app. It contains most of the expected questions and their answers.
+## Don't forget to read the FAQs section upon opening the app. It contains most of the expected questions and their answers.
 ## Contributing
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
