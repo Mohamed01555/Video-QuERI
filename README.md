@@ -41,7 +41,7 @@ To install and set up VideoQuERI for development purposes, follow these steps:
 
 6. Interact with the chat interface to input questions or comments related to the video.
 
-## See the interface of the app [here](https://videoqueri.streamlit.app/)
+## See the interface of the app [here](https://video-queri.streamlit.app/)
 
 ## Don't forget to read the FAQs section upon opening the app. It contains most of the expected questions and their answers.
 
