@@ -34,7 +34,7 @@ To install and set up VideoQuERI for development purposes, follow these steps:
 4. Run the application using the following command:
 
    ```
-   streamlit run app.py
+   streamlit run YouChat_V8.py
    ```
 
 5. Open your web browser and navigate to the provided URL.
