@@ -53,16 +53,16 @@ async def get_answer_from_chatgpt(question):
         st.stop()
 
 async def get_answer_from_youbot(question):
-    try:
+    # try:
         resp = await gpt4_curl.Completion().create(question)
         return resp
-    except:
-        try:
-            resp = await gpt4_tls.Completion().create(question)
-            return resp
-        except:
-            st.info('Service may be stopped or you are disconnected with internet. Feel free to open an issue here "https://github.com/Mohamed01555/VideoQuERI"')
-            st.stop()
+    # except:
+    #     try:
+    #         resp = await gpt4_tls.Completion().create(question)
+    #         return resp
+    #     except:
+    #         st.info('Service may be stopped or you are disconnected with internet. Feel free to open an issue here "https://github.com/Mohamed01555/VideoQuERI"')
+    #         st.stop()
 
 def img_to_bytes(img_path):
     img_bytes = Path(img_path).read_bytes()
