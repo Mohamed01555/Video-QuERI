@@ -51,7 +51,7 @@ async def get_answer_from_chatgpt(question):
     except:
         st.info('Service may be stopped or you are disconnected with internet. Feel free to open an issue here "https://github.com/Mohamed01555/VideoQuERI"')
         st.stop()
-
+# Fetching answers from You.com will only work offline
 async def get_answer_from_youbot(question):
     # try:
         resp = await gpt4_curl.Completion().create(question)
